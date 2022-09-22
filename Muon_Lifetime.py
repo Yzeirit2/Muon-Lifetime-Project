@@ -147,7 +147,7 @@ for heightplane in tqdm(heightplanelist):
 	    # and aren't within the detectors radius (defined by if statement above) to increase efficiency of simulation.
 	    # These trajectories will never hit the detector (centered at r=0)
 	    elif intercept[0]**2 + intercept[1]**2 > xyplane[j][0]**2 + xyplane[j][1]**2:
-			pass
+	    	pass
 	    
             # Adds unit vectors and plane point pairs for muons that didn't hit the detector at the
             # selected height and removes muon that did hit it to not double count.
